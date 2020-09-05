@@ -3,7 +3,7 @@ import Server from '../../src/server'
 
 const server = new Server().server
 
-describe('Exemple', () => {
+describe('Example', () => {
   it('this is a example', async () => {
     const { body } = await supertest(server).get('/')
 
