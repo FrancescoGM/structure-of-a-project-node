@@ -5,7 +5,7 @@
       "es6"
     ],
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDirs": ["./src", "./__test__"],
     "removeComments": true,
     "strict": true,
     "typeRoots": [
@@ -20,12 +20,15 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@controllers": ["./src/controllers/*"],
-      "@database": ["./src/database/*"],
-      "@config": ["./src/config/*"],
-      "@models": ["./src/models/*"],
-      "@utils": ["./src/utils/*"],
-      "@middlewares": ["./src/middlewares/*"]
+      "@controllers/*": ["./src/controllers/*"],
+      "@database/*": ["./src/database/*"],
+      "@config/*": ["./src/config/*"],
+      "@models/*": ["./src/models/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@middlewares/*": ["./src/middlewares/*"]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }

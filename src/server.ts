@@ -1,7 +1,6 @@
 import express from 'express'
 import Routes from './routes'
 import morgan from 'morgan'
-import Path from 'path'
 import cors from 'cors'
 
 /* istanbul ignore next */ 

@@ -6,6 +6,6 @@ const routes = Router()
 
 const Example = new ExampleController()
 
-routes.post('/', Example.index)
+routes.get('/', Example.index)
 
 export default routes
