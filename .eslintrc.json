@@ -15,7 +15,8 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "eslint-plugin-import-helpers"
+    "eslint-plugin-import-helpers",
+    "prettier"
   ],
   "rules": {
     "space-before-function-paren": "off"
